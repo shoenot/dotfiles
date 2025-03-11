@@ -1,0 +1,9 @@
+[Unit]
+Description=Plays the keep_alive_audio script
+
+[Service]
+Type=oneshot
+ExecStart=/home/shurjo/scripts/keep_alive_audio.sh
+
+[Install]
+WantedBy=default.target

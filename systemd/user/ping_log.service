@@ -1,0 +1,9 @@
+[Unit]
+Description=Executes the ping_log script
+
+[Service]
+Type=oneshot
+ExecStart=/home/shurjo/scripts/ping_log.sh
+
+[Install]
+WantedBy=default.target
